@@ -1,0 +1,40 @@
+{
+  "name": "moru",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/host.ts",
+    "start": "tsx src/host.ts",
+    "lan": "tsx src/lan.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@earendil-works/pi-agent-core": "0.85.1",
+    "@earendil-works/pi-ai": "0.85.1",
+    "dompurify": "^3.3.1",
+    "esbuild": "^0.25.0",
+    "highlight.js": "^11.11.1",
+    "lucide-react": "^0.468.0",
+    "marked": "^17.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=26"
+  },
+  "author": {
+    "name": "노드오프",
+    "email": "jin@nodeoff.kr",
+    "url": "https://nodeoff.kr"
+  }
+}

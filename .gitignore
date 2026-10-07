@@ -1,0 +1,16 @@
+node_modules/
+.next/
+dist/
+.env
+.env.*
+!.env.example
+.data/
+data/*.json
+*.sqlite*
+*.db
+*.log
+*.tsbuildinfo
+.vercel/
+.DS_Store
+release/
+native/build/
