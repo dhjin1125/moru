@@ -27,3 +27,11 @@ npm start
 - 회사 홈페이지: [nodeoff.kr](https://nodeoff.kr)
 
 현재 개발 상태와 공개 주소는 회사 홈페이지와 함께 관리합니다.
+
+## 공개 이력과 개발 경과
+
+2026년 10월 7일 기존 비공개 작업을 정리해 처음 공개한 저장소입니다. 개발 시작일과 공개 커밋 날짜는 다릅니다. [개발 경과와 공개 범위](docs/development-history.md)를 확인해 주세요.
+
+## 모델 연결 범위
+
+코드에는 Anthropic messages 어댑터가 포함돼 있습니다. 어댑터 구현이 운영 환경의 Claude API 실사용·성능 검증을 뜻하지는 않습니다. 포함된 외부 코드의 라이선스·고지는 보존합니다. Nodeoff의 이번 Claude 도입 우선 제품은 [Nurse Board](https://nodeoff.kr/products/nurse-board#claude-plan)입니다.
